@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Mapbox CSS -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- JQuery UI CSS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/themes/smoothness/jquery-ui.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
+
 <body>
     <h2>Gulp BoilerPlate</h2>
+
+    <!-- DATE PICKER -->
+    <div class="datepicker">
+        <h2>DatePickerJS </h2>
+        <p>Start Date: <input type="text" id="start-date"></p>
+        <p>End Date: <input type="text" id="end-date"></p>
+        <p>Number of Days: <span id="number-of-days"></span></p>
+
+
+
+        <div id="results">
+
+        </div>
+    <!-- END OF DATE PICKER -->
+
+
+    <!-- MAPBOX -->
+    <div class="mapcontainer">
+        <h1>STORE <span>LOCATIONS</span></h1>
+        <div id="map">
+        </div>
+    </div>
+    <!-- END OF MAPBOX -->
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- JQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Mapbox JS -->
+     <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5e73d754ca.js" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/script.min.js"></script>
 </body>
 </html>
